@@ -11,15 +11,63 @@
     width: auto;
     height: 200px;
             }
+            #wrapper {
+      display: inline-block;
+			align-items: center;
+			background-color: lightgreen;
+
+			width: 900px;
+		
+		}
+    #first {
+			background-color: lightgreen;
+			width: 900px;
+		}
+
+		#second{
+			background-color: lightgreen;
+			width: 900px;
+      display: inline-flex;
+			align-items: flex-start;
+			flex-wrap: wrap;
+		}
+    #third {
+			background-color: lightgreen;
+			width: 900px;
+      display: inline-flex;
+			align-items: flex-start;
+			flex-wrap: wrap;
+		}
+    #left{
+      float: left; width: 50%;
+}
+    #right{
+      float: right; width: 50%;
+   }
+
+
+
+
     </style>
   </head>
   <body>
+    <div id="wrapper">
+      <div id="first">
     <h1> Vincent Hultsch</h1>
     <a href = "mailto: vhultsch@usc.edu">vhultsch@usc.edu</a>
+  </div>
+  <!--div for first-->
+  <hr>
+  <div id="second">
+    <div id="left">
+
     <p> Favorite Color : <strong>Blue</strong></p>
     <p> Favorite Website : <a href = "https://www.usc.edu/">USC Home Page - Fight on Forever</a></p>
     <img src="https://images.pexels.com/photos/390051/surfer-wave-sunset-the-indian-ocean-390051.jpeg?cs=srgb&dl=pexels-pixabay-390051.jpg&fm=jpg" alt="Surfing">
   </body>
+</div>
+<div id="right">
+
   <p>Current Classes:</p>
   <ol>
     <li>ITP 104</li>
@@ -28,20 +76,34 @@
     <li>IR 325</li>
     <li>CORE 103 </li>
   </ol>
+  </div>
+</div> 
+
+<!--div for second-->
+<hr>
+
+<div id="third">
+  <div id="left">
+
   <p>Completed Assignments:</p>
   <ol>
     <li>Assignment 1: <a href = "assignment_01/resume.html">resume.html</a> </li>
     <li>Assignment 2: <a href = "assignment_02/interest.html">interest.html</a> </li>
 
   </ol>
+  </div>
+  <div id="right">
+
   <p>Completed Labs:</p>
   <ol>
     <li> Lab 1 </li>
     <li> Lab 2: <a href = "index.html">index.html</a></li>
     <li> Lab 3: <a href = "lab_03/resume.html">resume.html</a></li>
 
-
+  </div>
   </ol>
-  
+</div>
+</div> 
+<!--div for wrapper-->
   
 </html>
