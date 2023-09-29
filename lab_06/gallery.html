@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery | ITP</title>
+	<style>
+     
+        #gallery{
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+
+        }
+        .imgs{
+            width: 125px;
+			height: auto;
+            margin: 15px;
+            padding: 10px;
+        }
+        #main{
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            height: 800px;
+
+        }
+        .img-container > p {
+			text-align: center;
+			visibility: hidden;
+
+		}
+        .imgs:hover + p {
+			display: block;
+			visibility: visible;
+            text-shadow: 0px 0px 5px greenyellow;
+
+		}
+        #wrapper{
+            background-color: aliceblue;
+            background-size: cover;
+        
+        }
+        #footer{
+            background-color: aliceblue;
+        }
+        #header{
+            text-align: center;
+            text-shadow: 0px 0px 1px #000;
+            font-style: oblique;
+
+        }
+        h1{
+            margin: auto;
+        }
+	</style>
+</head>
+<body>
+    <div id="wrapper">
+	<div id="header">
+		<h1>Nature Photo Gallery</h1>
+	</div> <!-- #header -->
+
+<div id="main">
+
+		
+	<div id="gallery">
+        <div class="img-container">
+            <img class="imgs" src="img/beach.jpeg" alt="Beach">
+            <p>Beach and hills from above</p>
+        </div>
+        
+        <div class="img-container">
+            <img class="imgs" src="img/park.jpeg" alt="Park">
+            <p>Walkway in a park</p>
+        </div>
+
+        <div class="img-container">
+            <img class="imgs" src="img/tree.jpeg" alt="Tree">
+            <p>Tree in a sunset</p>
+        </div>
+
+       
+        <div class="img-container">
+            <img class="imgs" src="img/sunrise.jpeg" alt="Sunrise">
+            <p>Boat on the water</p>
+        </div>
+        <div class="img-container">
+            <img class="imgs" src="img/flowers.jpeg" alt="Flowers">
+            <p>Flowers shining on a beautiful day </p>
+        </div>
+
+
+		
+	    </div> <!-- #gallery -->
+
+    </div><!--main-->
+</div>
+
+
+</body>
+</html>
