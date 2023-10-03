@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Gallery | ITP </title>
+
+	<link rel="stylesheet" href="shared.css">
+
+	<style>
+        #header{
+            text-align: center;
+            text-shadow: 0px 0px 1px #000;
+            font-style: oblique;
+            background-image: url(img/headerphoto.jpeg);
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+            line-height: 250px;
+            margin: 0px;
+            padding: 0px;
+        }
+        h1{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #gallery {
+			display: flex;
+            flex: wrap;
+            background-color: green;
+            margin: 0px;
+            padding: 0px;
+
+		}
+        .img-container{
+            background-color: aqua;
+            border: 4px solid black;
+			border-bottom: 4px solid black;
+            margin: 10px;
+        }
+
+        .small{
+            width: 100px;
+            height: 100px;
+        
+        }
+        .big{
+            width: 300px;
+            height: 300px;
+           
+        }
+        .medium{
+            width: 200px;
+            height: 200px;
+            
+        }
+        
+        #gallery-row { 
+            display: flex; 
+            flex-wrap: wrap; 
+            width: 100%; 
+            justify-content: center;
+     
+        }
+        h2 { 
+            background-color: green; 
+            margin: 0px; 
+            padding: 0px; 
+        }
+
+	</style> 
+
+</head>
+<body>
+
+
+	<div id="header">
+		<h1>Gallery of our Beautiful World!</h1>
+	</div> <!-- #header -->
+    <div id="navbar">
+        <a href="interest.html">Home</a>
+        <a id="highlight-nav" href="photogal.html">Gallery</a>
+    </div>
+    <div id="wrapper">
+	<div id="main">
+        <h2>PHOTOS:</h2>
+        <div id="gallery">
+            <div class="gallery-row"> 
+			<div class="img-container medium" >
+				<img class="thumbnail" src="img/img.jpeg" alt="img">
+				<p>Box1</p>
+			</div>
+			
+			<div class="img-container big" >
+				<img class="thumbnail" src="img/img.jpeg" alt="img" >
+				<p>Box2</p>
+			</div>
+        </div> <!--row -->
+        <div class="gallery-row"> 
+
+			<div class="img-container small" >
+				<img class="thumbnail" src="img/img.jpeg" alt="img">
+				<p>Box3</p>
+			</div>
+
+			<div class="img-container medium" >
+				<img class="thumbnail" src="img/img.jpeg" alt="img">
+				<p>Box4</p>
+			</div>
+            <div class="img-container big" >
+				<img class="thumbnail" src="img/img.jpeg" alt="img">
+				<p>Box5</p>
+			</div>
+        </div> <!--row -->
+        <div class="gallery-row"> 
+            <div class="img-container small" >
+				<img class="thumbnail" src="img/img.jpeg" alt="img">
+				<p>Box6</p>
+			</div>
+            <div class="img-container medium" >
+				<img class="thumbnail" src="img/img.jpeg" alt="img">
+				<p>Box7</p>
+			</div>
+            <div class="img-container big" >
+				<img class="thumbnail" src="img/img.jpeg" alt="img">
+				<p>Box8</p>
+			</div>
+        </div> <!--row -->
+
+            <div class="gallery-row"> 
+
+            <div class="img-container big" >
+				<img class="thumbnail" src="img/img.jpeg" alt="img">
+				<p>Box9</p>
+			</div>
+            <div class="img-container medium" >
+				<img class="thumbnail" src="img/img.jpeg" alt="img">
+				<p>Box10</p>
+			</div>
+        </div> <!--row -->
+
+		</div> <!-- #gallery -->
+	
+	</div> <!-- #main -->
+</div><!--wrapper-->
+	<div id="footer">
+        Climate Change 4 ITP104 - VINCENTHULTSCH
+	</div> <!-- #footer -->
+
+</body>
+</html>
