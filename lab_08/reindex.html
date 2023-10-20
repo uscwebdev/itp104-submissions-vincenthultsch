@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width", inital-scale="1.0">
     <title>Vincent Hultsch | Student Page </title>
     <style>
+     
         strong{
             background-color: darkblue;
             color: orange ;
@@ -17,6 +19,8 @@
 			background-color: lightgreen;
 
 			width: 900px;
+      max-width: 100%;
+      height: auto;
 		
 		}
     #first {
@@ -44,6 +48,26 @@
     #right{
       float: right; width: 50%;
    }
+   @media (max-width: 767px) {
+        
+        body{
+            background-color: lightgreen;
+            padding-top: 0px;
+            align-items: center;
+          }
+  
+          #first,
+          #second,
+          #third{
+            display: block;
+          }
+          #left,
+          #right{
+            float: none;
+            width: 100%;
+          }
+          
+        }
 
 
 
@@ -108,7 +132,8 @@
     <li> Lab 5: <a href = "lab_05/form.html">form.html</a></li>
     <li> Lab 6: <a href = "lab_06/gallery.html">gallery.html</a></li>
     <li> Lab 7: <a href = "lab_07/puzzle.html">puzzle.html</a></li>
-    <li> Lab 8: <a href = "lab_08/reindex.html">reindex.html</a></li>
+    <li> Lab 8: <a href = "index.html">index.html</a></li>
+
 
 
 
