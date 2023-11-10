@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>transform | ITP </title>
+    <style>
+
+    body{
+      background-color: aliceblue;
+    }
+    .parent-container {
+      width: 1000px;
+      height: 500px;
+      border: 1px solid black;
+      align-self: center;
+      margin-left: 350px;
+      margin-right: 350px
+    }
+
+    img {
+      height: 300px;
+      width: 500px;
+      position: absolute;
+    }
+    .img-1{
+      padding-left: 250px;
+    
+    }
+    .img-2{
+      padding-right: 150px;
+    }
+    .img-3{
+      padding-top: 150px;
+     
+    }
+    .parent-container:hover .img-1{
+      transform: translate(100px, 500px);
+      transition: all 1s;
+    }
+    .parent-container:hover .img-2{
+      transform: translate(250px, -200px);
+      transition: all 1s;
+    }
+    .parent-container:hover .img-3{
+      transform: translate(-250px, -300px);
+      transition: all 1s;
+    }
+
+     </style>
+</head>
+<body>
+  <h1> images of nature that can move ! </h1>
+  <div class="parent-container">
+      <img class="img-1" src="Img/cliff.jpeg" alt="Cliff">
+      <img class="img-2" src="Img/sunset.jpeg" alt="Sunset">
+      <img class="img-3" src="Img/sea.jpeg" alt="Sea">
+  </div>
+
+</body>
+</html>
