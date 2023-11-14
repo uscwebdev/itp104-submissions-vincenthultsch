@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Sustainably Styled | ITP Final Project Home Page</title>
+  <meta name="homepage" content="Sustainably Styled is an environmentally friendly clothing brand committed to sustainable and ethical practices. Learn about our history, commitments, and sustainable manufacturing processes. Contact us for questions and support.">
+  <style>
+    @font-face {
+            src: url(Fonts/EduTASBeginner-VariableFont_wght.ttf);
+            font-family: "EduTASBeginner";
+            }
+    body {
+			margin: 0px;
+            background-color: lightskyblue;
+            font-family: "EduTASBeginner", cursive,serif ;
+		}
+    #header{
+        background-size: cover;
+        background-image: url(img/manwalking.jpg);
+        background-repeat: no-repeat;
+		height: 600px;
+        width: auto;
+		text-align: center;
+        color: black;
+        margin: 0px;
+    }
+    h1{
+        margin: 0px;
+        line-height: 500px;
+    }
+    #navigationmenu {
+    display: grid;
+    background-color: lightblue;
+    justify-content: center;
+    box-shadow: 0px 3px 5px black;
+    }
+   
+    #navigationmenu li {
+      display: flex;
+      list-style-type: none;
+      margin: 10px;
+      padding: 10px;
+    }
+    #navigationmenu ul {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .mini-section1{
+      float: left;
+      width: 500px;
+      margin: 10px;
+      height: 350px;
+      background-color: lightgray;
+      padding: 20px;
+      text-align: center;
+    }
+    .mini-section2{
+      float: right;
+      width: 500px;
+      margin: 10px;
+      height: 350px;
+      background-color: lightgray;
+      padding: 20px;
+      text-align: center;
+    }
+    .mini-section3{
+      float: left;
+      width: 500px;
+      margin: 10px;
+      height: 350px;
+      background-color: lightgray;
+      padding: 20px;
+      text-align: center;
+    }
+    .mini-section4{
+      float: right;
+      width: 500px;
+      margin: 10px;
+      height: 350px;
+      background-color: lightgray;
+      padding: 20px;
+      text-align: center;
+    }
+    #bodywrapper {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px;
+      justify-content: center;
+      background-color: lightskyblue;
+    }
+    #imgbody{
+            float: right;
+            width: 200px;
+            height: 100px;
+    }
+
+  </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Sustainably Styled</h1>
+        <p>"A style that leaves no footprints 👣"</p>
+    </div>
+
+    <div id="navigationmenu">
+<ul>
+            <li>
+                <a id="highlight-nav" href="homepage.html">Home</a>
+            </li>
+            <li>
+                <a href="shopping.html">Shopping</a>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id="bodywrapper">
+        <div class="mini-section1">
+            <h2>History</h2>
+            <p>Sustainably Styled is a brand new environmental-friendly clothing brands that looks to equally put in as much care into the products it offers as its impact on OUR global planet. <span> <img id="imgbody" src="img/manwalking.jpg" alt="Protestor Walking"> </span> The company was founded in 2023 by Vincent Hultsch as he kept being upset at the careless nature most indivduals treat their clothes. </p> 
+            <p>He embraked on a journey of securing the most humane and pro-earth supply chain possible for his products and has bulid out a great team of experts to aid him in growing the brand</p>
+        </div>
+        <div class="mini-section2">
+            <h2>Commitments</h2>
+            <p>Sustainably Styled is a brand that prides itself on putting its money where its mouth here here are our Commitments</p>
+            <ul>
+                <li>90% of Profits are recommited to environmental-friendly work</li>
+                <li>100% of the materials used in the final products are recycled</li>
+                <span> <img id="imgbody" src="img/climatechangeprotest.jpg" alt="Sign asking for Change"> </span>
+                <li>By 2030, have entirely in-house complete production to ensure quality and practices</li>
+                <li>For each online purchase by a customer 5 trees are planeted</li>
+
+            </ul>
+        </div>
+        <div class="mini-section3">
+            <h2>Practices</h2>
+            <p> Sustainably Styled believes in the motto "Looking Good and Feeling Good" should extend to OUR planet as well. <span> <img id="imgbody" src="img/designroom.jpg" alt="Our Green Offices"> </span>
+                In each manufactoring faculty there are measures in place to ensure only recycled materials are used in production, minmimal water usage as well as any other IP and technology protections for local employees. This has created a system of everyones incentives being aligned to constantly innovate on process and result to create the best solution for the Earth and members of our valued community. Remember the clothing must be kind to you and to OUR planet!</p>
+        </div>
+        <div class="mini-section4">
+            <h2>Contact Us</h2>
+            <span> <img id="imgbody" src="img/supportplanet.jpg" alt="Sign saying to support the planet"> </span>
+            <p>Don't hesitate to reach out if you have any questions about the brand or any products! We believe the journey of sustainable business is one that includes all of us we want to hear from you!</p>
+            <p>Feel free to, email <a href="mailto:SustainablyStyled@SustainablyStyled.com">SustainablyStyled@SustainablyStyled.com</a> or contact us via our webpage below!</p>
+            <div class="row">
+				<div class="colll">
+					<label for="subject-id">Subject:</label>
+				</div>
+
+				<select id="subject-id">
+					<option>New ideas for practices</option>
+					<option>New ideas for products</option>
+					<option>All other comments</option>
+				</select>
+			</div> 
+            <div class="row">
+				<div class="colll">
+					<label for="msg-id">Submission</label>
+				</div>
+				<textarea id="msg-id" placeholder="How can we improve our earth....."></textarea>
+			</div> 
+
+			<div class="row">
+				<button type="submit">Send</button>
+				<button type="reset">Clear</button>
+			</div> 
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
