@@ -4,7 +4,7 @@
 }
 body {
     margin: 0px;
-    background-color: lightskyblue;
+    background-color: lightblue;
     font-family: "EduTASBeginner", cursive, serif;
 }
 #header {
@@ -23,8 +23,9 @@ h1 {
 }
 #navigationmenu {
     display: grid;
-    background-color: lightblue;
+    background-color: lightseagreen;
     justify-content: center;
+    text-emphasis-color: white;
     box-shadow: 0px 3px 5px black;
 }
 #navigationmenu li {
@@ -40,9 +41,10 @@ h1 {
     padding: 0;
 }
 #footer{
-    background-color: lightblue;
+    background-color: lightseagreen;
     text-align: center;
-    color: black;
+    color: white;
     height: 20px;
     line-height: 20px;
+
 }

@@ -1,0 +1,50 @@
+@font-face {
+    src: url(Fonts/EduTASBeginner-VariableFont_wght.ttf);
+    font-family: "EduTASBeginner";
+}
+body {
+    margin: 0px;
+    background-color: lightblue;
+    font-family: "EduTASBeginner", cursive, serif;
+}
+#header {
+    background-size: cover;
+    background-image: url(img/manwalking.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: auto;
+    text-align: center;
+    color: black;
+    margin: 0px;
+}
+h1 {
+    margin: 0px;
+    line-height: 500px;
+}
+#navigationmenu {
+    display: grid;
+    background-color: lightseagreen;
+    justify-content: center;
+    text-emphasis-color: white;
+    box-shadow: 0px 3px 5px black;
+}
+#navigationmenu li {
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+}
+#navigationmenu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#footer{
+    background-color: lightseagreen;
+    text-align: center;
+    color: white;
+    height: 20px;
+    line-height: 20px;
+
+}
