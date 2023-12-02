@@ -48,7 +48,7 @@
       justify-content: center;
       background-color: lightblue;
     }
-    #imgbody{
+    .imgbody{
             float: right;
             width: 200px;
             height: 100px;
@@ -73,17 +73,16 @@
             <li>
                 <a href="shopping.html">Shopping</a>
                 </ul>
-            </li>
-        </ul>
+    
     </div>
     <div id="topish">
     <h2>Contiuning pushing new boundaries</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/vWGg0iPmI8k?si=oAgmlIsi1FIlTV1J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vWGg0iPmI8k?si=oAgmlIsi1FIlTV1J" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
     <div id="bodywrapper">
         <div class="mini-section1">
             <h2>History</h2>
-            <p>Sustainably Styled is a brand new environmental-friendly clothing brands that looks to equally put in as much care into the products it offers as its impact on OUR global planet. <span> <img id="imgbody" src="img/plants.jpg" alt="Plants"> </span> The company was founded in 2023 by Vincent Hultsch as he kept being upset at the careless nature most indivduals treat their clothes. </p> 
+            <p>Sustainably Styled is a brand new environmental-friendly clothing brands that looks to equally put in as much care into the products it offers as its impact on OUR global planet. <span> <img class="imgbody" src="img/plants.jpg" alt="Plants"> </span> The company was founded in 2023 by Vincent Hultsch as he kept being upset at the careless nature most indivduals treat their clothes. </p> 
             <p>He embraked on a journey of securing the most humane and pro-earth supply chain possible for his products and has bulid out a great team of experts to aid him in growing the brand</p>
         </div>
         <div class="mini-section2">
@@ -91,8 +90,7 @@
             <p>Sustainably Styled is a brand that prides itself on putting its money where its mouth here here are our Commitments</p>
             <ul>
                 <li>90% of Profits are recommited to environmental-friendly work</li>
-                <li>100% of the materials used in the final products are recycled</li>
-                <span> <img id="imgbody" src="img/climatechangeprotest.jpg" alt="Sign asking for Change"> </span>
+                <li>100% of the materials used in the final products are recycled <span> <img class="imgbody" src="img/climatechangeprotest.jpg" alt="Sign asking for Change"> </span></li>
                 <li>By 2030, have entirely in-house complete production to ensure quality and practices</li>
                 <li>For each online purchase by a customer 5 trees are planeted</li>
 
@@ -100,43 +98,41 @@
         </div>
         <div class="mini-section3">
             <h2>Practices</h2>
-            <p> Sustainably Styled believes in the motto "Looking Good and Feeling Good" should extend to OUR planet as well. <span> <img id="imgbody" src="img/designroom.jpg" alt="Our Green Offices"> </span>
+            <p> Sustainably Styled believes in the motto "Looking Good and Feeling Good" should extend to OUR planet as well. <span> <img class="imgbody" src="img/designroom.jpg" alt="Our Green Offices"> </span>
                 In each manufactoring faculty there are measures in place to ensure only recycled materials are used in production, minmimal water usage as well as any other IP and technology protections for local employees. This has created a system of everyones incentives being aligned to constantly innovate on process and result to create the best solution for the Earth and members of our valued community. Remember the clothing must be kind to you and to OUR planet! Listen to our head of operations, Susta</p>
-                <audio controls autoplay loop>
+                <audio controls muted autoplay loop>
                   <source src="Audio/Susta.mp4">
                 </audio>
         </div>
         <div class="mini-section4">
             <h2>Contact Us</h2>
-            <span> <img id="imgbody" src="img/supportplanet.jpg" alt="Sign saying to support the planet"> </span>
+            <span> <img class="imgbody" src="img/supportplanet.jpg" alt="Sign saying to support the planet"> </span>
             <p>Don't hesitate to reach out if you have any questions about the brand or any products! We believe the journey of sustainable business is one that includes all of us we want to hear from you!</p>
             <p>Feel free to, email <a href="mailto:SustainablyStyled@SustainablyStyled.com">SustainablyStyled@SustainablyStyled.com</a> or contact us via our webpage below!</p>
             <div class="row">
-				<div class="colll">
-					<label for="subject-id">Subject:</label>
-				</div>
-        <form action="confirm.html">
-				<select id="subject-id">
-					<option>New ideas for practices</option>
-					<option>New ideas for products</option>
-					<option>All other comments</option>
-				</select>
-			</div> 
-            <div class="row">
-				<div class="colll">
-					<label for="msg-id">Submission</label>
-				</div>
-				<textarea id="msg-id" placeholder="How can we improve our earth....."></textarea>
-			</div> 
-			<div class="row">
-				<button type="submit">Send</button>
-				<button type="reset">Clear</button>
-			</div> 
-      <form>
-
-
-        </div>
-    </div>
+      <form action="confirm.html">
+      <div class="colll">
+        <label for="subject-id">Subject:</label>
+      </div>
+        <select id="subject-id">
+         <option>New ideas for practices</option>
+        <option>New ideas for products</option>
+        <option>All other comments</option>
+      </select>
+           <div class="colll">
+        <label for="ms">Submission</label>
+      </div>
+       <textarea id="ms" placeholder="How can we improve our earth....."></textarea>
+      <div class="row">
+        <button type="submit">Send</button>
+        <button type="reset">Clear</button>
+      </div>
+    </form>
+  </div>
+</div>
+  
+  
+</div>
     <div id="footer">
       Sustainably Styled ITP104 - vincenthultsch
 </div> 
